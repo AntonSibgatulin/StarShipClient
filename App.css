@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.main-panel{
+  width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.main-panel a{
+  width: 150px;
+  height: 100%;
+  border-right: 1px solid;
+  cursor: pointer;
+  min-height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+ #container{
+  width: calc(100% - 20px);
+  min-height: 600px;
+  background-color: #00000014;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 10px 0px;
+
+}
+
+
+
+#result {
+  width: calc(100% - 20px);
+  min-height: 600px;
+  background-color: #00000014;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 10px 0px;
+
+}
+
+
+
+.SpaceMarineResponse {
+  padding: 10px;
+  background-color: #00000012;
+  border-radius: 10px;
+  width: 40%;
+  height: 60%;
+  min-height: 300px;
+  margin-left: 30%;
+    margin-top: 10px;
+}
+
+coordinates{
+
+}
+
+.margintop{
+  margin-top: 10px;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+coordinates , .block{
+    padding: 10px;
+    background-color: #00000012;
+    border-radius: 10px;
+}
+select , input{
+  min-width: 150px;
+  min-height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 100%;
+  font-size: 16pt;
+
+}
+.create{
+  width: 55%;
+}
+
+.flex-left{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 8px;
+ 
+}
+.margin-left{
+  margin-left: 10px;
+}
+
+
+.button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
